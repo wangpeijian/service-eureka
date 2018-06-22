@@ -1,4 +1,4 @@
-gradle build -x test
+D:\gradle-4.8.1\bin\gradle build -x test
 
 cd ./gradle/build/
 
