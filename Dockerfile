@@ -4,7 +4,7 @@ MAINTAINER peijian.wang
 
 ARG port
 
-EXPOSE $port
+EXPOSE 8080
 
 ADD ./build/libs/service-eureka-0.0.1-SNAPSHOT.jar /home/
 
