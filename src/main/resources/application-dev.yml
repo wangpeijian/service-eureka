@@ -1,0 +1,11 @@
+#1、 注册中心关闭自我保护机制，修改检查失效服务的时间。
+eureka:
+  server:
+    enable-self-preservation: false
+    eviction-interval-timer-in-ms: 3000
+  #2、 微服务修改减短服务心跳的时间。
+  instance:
+    # 默认90秒
+    lease-expiration-duration-in-seconds: 10
+    # 默认30秒
+    lease-renewal-interval-in-seconds: 3
