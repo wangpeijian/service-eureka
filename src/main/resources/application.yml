@@ -2,7 +2,7 @@ profiles:
   active: dev
 
 server:
-  port: 9901
+  port: 9001
 eureka:
   instance:
     hostname: 127.0.0.1
