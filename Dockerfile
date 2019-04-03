@@ -2,9 +2,7 @@ FROM java
 
 MAINTAINER peijian.wang
 
-ARG port
-
-EXPOSE $port
+EXPOSE 9001
 
 ADD ./build/libs/service-eureka-0.0.1-SNAPSHOT.jar /home/app.jar
 
